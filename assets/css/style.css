@@ -7,54 +7,94 @@
 
 /* BODY */
 body {
-  background: #0b0b0f;
+  font-family: 'Inter', sans-serif;
+  background: #0b0b12;
   color: #ffffff;
-  font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
 }
 
 /* HEADER */
 header {
-  background: #11111a;
-  padding: 20px;
-  text-align: center;
-  border-bottom: 2px solid #3c00ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: rgba(10, 10, 18, 0.8);
+  border-bottom: 1px solid #1f1f2e;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(10px);
 }
 
-/* CLAN NAME */
-header h1 {
-  font-size: 2.5rem;
-  letter-spacing: 3px;
-  color: #3c00ff;
+/* LOGO */
+.logo {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #6c3cff;
+  letter-spacing: 2px;
 }
 
-/* TAGLINE */
-header p {
+/* NAV */
+nav a {
   color: #aaa;
-  margin-top: 5px;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+  transition: 0.2s;
 }
 
-/* MAIN CONTENT */
-main {
-  padding: 40px 20px;
-  max-width: 900px;
-  margin: auto;
+nav a:hover {
+  color: #ffffff;
 }
 
-/* BOX / SECTION STYLE */
-.section {
-  background: #151521;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 10px;
-  border: 1px solid #2a2a3a;
-}
-
-/* FOOTER */
-footer {
+/* HERO */
+.hero {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding: 20px;
-  color: #666;
-  border-top: 1px solid #2a2a3a;
-  margin-top: 40px;
+  padding: 0 20px;
+}
+
+/* HERO TITLE */
+.hero h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3.2rem;
+  letter-spacing: 4px;
+  color: #6c3cff;
+}
+
+/* SUBTITLE */
+.hero h2 {
+  margin-top: 10px;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #ddd;
+}
+
+/* TEXT */
+.hero p {
+  margin-top: 15px;
+  color: #999;
+  max-width: 500px;
+}
+
+/* BUTTON */
+.button {
+  margin-top: 30px;
+  padding: 12px 24px;
+  background: #6c3cff;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.button:hover {
+  background: #5429d6;
+  transform: translateY(-2px);
 }
