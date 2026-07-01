@@ -209,7 +209,7 @@ textarea::placeholder {
 }
 
 .logo img {
-  height: 80px;
+  height: 120px;
   width: auto;
   display: block;
 }
@@ -219,12 +219,12 @@ textarea::placeholder {
 }
 
 .logo img:hover {
-  filter: drop-shadow(0 0 12px rgba(0, 255, 122, 0.6));
+  filter: drop-shadow(0 0 12px rgba(0, 201, 106, 0.5));
 }
 
 
 .logo img:hover {
-  filter: drop-shadow(0 0 10px rgba(108, 60, 255, 0.6));
+  filter: drop-shadow(0 0 10px rgba(0, 201, 106, 0.5));
   transform: scale(1.05);
 }
 
