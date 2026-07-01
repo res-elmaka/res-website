@@ -191,3 +191,15 @@ footer {
   color: #6c3cff;
   margin-bottom: 15px;
 }
+
+input, textarea {
+  background: #151522;
+  border: 1px solid #2a2a3a;
+  color: white;
+  border-radius: 8px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #777;
+}
