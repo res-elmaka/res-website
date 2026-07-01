@@ -157,3 +157,24 @@ footer {
   border-top: 1px solid #1f1f2e;
   margin-top: 60px;
 }
+
+.tag {
+  padding: 80px 20px;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.tag h2 {
+  font-family: 'Orbitron', sans-serif;
+  color: #6c3cff;
+  margin-bottom: 15px;
+}
+
+.tag .card {
+  margin-top: 30px;
+  background: #151522;
+  border: 1px solid #232336;
+  padding: 25px;
+  border-radius: 12px;
+}
