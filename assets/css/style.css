@@ -208,11 +208,6 @@ textarea::placeholder {
   color: #777;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-
 .logo img {
   height: 120px;
   width: auto;
@@ -225,12 +220,7 @@ textarea::placeholder {
 
 .logo img:hover {
   filter: drop-shadow(0 0 12px rgba(0, 201, 106, 0.5));
-}
-
-
-.logo img:hover {
-  filter: drop-shadow(0 0 10px rgba(0, 201, 106, 0.5));
-  transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .game-tag {
@@ -240,7 +230,6 @@ textarea::placeholder {
   letter-spacing: 2px;
   text-shadow: 0 0 10px rgba(0, 201, 106, 0.5);
 }
-
 
 .member-tag {
   margin-top: 5px;
