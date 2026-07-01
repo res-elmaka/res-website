@@ -18,9 +18,8 @@ body {
 /* HEADER */
 header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
+  padding: 20px 60px;
   background: rgba(10, 10, 18, 0.8);
   border-bottom: 1px solid #1f1f2e;
   position: sticky;
