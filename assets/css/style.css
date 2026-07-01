@@ -278,22 +278,25 @@ section {
 @media (max-width: 768px) {
 
   header {
-    padding: 20px 10px;
+    padding: 15px 10px;
   }
 
   .header-inner {
     flex-direction: column;
     align-items: center;
-    gap: 12px;
+    gap: 15px;
   }
 
   nav {
-    flex-direction: column;
-    gap: 10px;
+    display: flex;
+    flex-direction: row;      /* nebeneinander */
+    justify-content: center;
+    flex-wrap: wrap;          /* falls es auf sehr kleinen Displays nicht mehr passt */
+    gap: 20px;
   }
 
-  nav a {
-    font-size: 1rem;
+  .logo img {
+    height: 80px;             /* etwas kleiner auf Mobil */
   }
 
 }
