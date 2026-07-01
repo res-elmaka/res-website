@@ -19,6 +19,7 @@ body {
 header {
   display: flex;
   align-items: center;
+  justify-content: flex-start;
   padding: 20px 60px;
   background: rgba(10, 10, 18, 0.8);
   border-bottom: 1px solid #1f1f2e;
@@ -26,7 +27,6 @@ header {
   top: 0;
   backdrop-filter: blur(10px);
 }
-
 /* LOGO */
 .logo {
   display: flex;
@@ -208,6 +208,11 @@ textarea::placeholder {
   color: #777;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+
 .logo img {
   height: 120px;
   width: auto;
@@ -249,4 +254,11 @@ textarea::placeholder {
   color: #00c96a;
   font-family: 'Orbitron', sans-serif;
   letter-spacing: 1px;
+}
+
+nav {
+  margin-left: auto;
+  display: flex;
+  gap: 30px;
+  align-items: center;
 }
