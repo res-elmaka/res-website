@@ -18,8 +18,10 @@ body {
 /* HEADER */
 header {
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
+  gap: 60px; /* Abstand zwischen Logo und Menü */
+
   padding: 20px 60px;
   background: rgba(10, 10, 18, 0.8);
   border-bottom: 1px solid #1f1f2e;
@@ -32,7 +34,6 @@ header {
 .logo {
   display: flex;
   align-items: center;
-  flex-shrink: 0;
 }
 
 /* NAV */
@@ -244,7 +245,6 @@ textarea::placeholder {
 }
 
 nav {
-  margin-left: auto;
   display: flex;
   gap: 30px;
   align-items: center;
