@@ -250,3 +250,9 @@ textarea::placeholder {
   font-size: 1rem;
   letter-spacing: 1px;
 }
+
+.res-prefix {
+  color: #00c96a;
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 1px;
+}
