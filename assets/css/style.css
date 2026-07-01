@@ -214,3 +214,12 @@ textarea::placeholder {
   width: auto;
   display: block;
 }
+
+.logo img {
+  transition: 0.2s ease;
+}
+
+.logo img:hover {
+  filter: drop-shadow(0 0 10px rgba(108, 60, 255, 0.6));
+  transform: scale(1.05);
+}
