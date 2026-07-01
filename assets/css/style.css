@@ -29,18 +29,18 @@ header {
 
 /* LOGO */
 .logo {
-  font-family: 'Orbitron', sans-serif;
-  font-size: 1.6rem;
-  font-weight: 700;
-  color: #00c96a;
-  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
 }
 
 /* NAV */
 nav a {
   color: #aaa;
   text-decoration: none;
-  margin-left: 20px;
+  margin-left: auto;
+  gap: 30px;
+  align-items:center;
   transition: 0.2s;
 }
 
