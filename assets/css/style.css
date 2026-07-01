@@ -178,3 +178,16 @@ footer {
   padding: 25px;
   border-radius: 12px;
 }
+
+.join {
+  padding: 80px 20px;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.join h2 {
+  font-family: 'Orbitron', sans-serif;
+  color: #6c3cff;
+  margin-bottom: 15px;
+}
