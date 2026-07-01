@@ -208,3 +208,9 @@ input::placeholder,
 textarea::placeholder {
   color: #777;
 }
+
+.logo img {
+  height: 45px;
+  width: auto;
+  display: block;
+}
