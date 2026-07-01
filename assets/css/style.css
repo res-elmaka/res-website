@@ -236,12 +236,6 @@ textarea::placeholder {
   text-shadow: 0 0 10px rgba(0, 201, 106, 0.5);
 }
 
-.member-name {
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: #ffffff;
-  margin-top: 10px;
-}
 
 .member-tag {
   margin-top: 5px;
