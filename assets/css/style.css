@@ -41,6 +41,7 @@ header {
 .logo {
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 
 /* NAV */
@@ -217,15 +218,13 @@ textarea::placeholder {
 .logo img {
   height: 110px;
   width: auto;
-}
-
-.logo img {
+  display: block;
   transition: 0.2s ease;
 }
 
 .logo img:hover {
+  transform: scale(1.05);
   filter: drop-shadow(0 0 12px rgba(0, 201, 106, 0.5));
-    transform: scale(1.05);
 }
 
 .game-tag {
