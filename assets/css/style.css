@@ -19,7 +19,7 @@ body {
 header {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   padding: 20px 60px;
   background: rgba(10, 10, 18, 0.8);
   border-bottom: 1px solid #1f1f2e;
@@ -27,6 +27,7 @@ header {
   top: 0;
   backdrop-filter: blur(10px);
 }
+
 /* LOGO */
 .logo {
   display: flex;
@@ -36,11 +37,8 @@ header {
 
 /* NAV */
 nav a {
-  color: #aaa;
   text-decoration: none;
-  margin-left: auto;
-  gap: 30px;
-  align-items:center;
+  color: #aaa;
   transition: 0.2s;
 }
 
